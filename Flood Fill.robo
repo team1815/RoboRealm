@@ -1,0 +1,63 @@
+<head><version>2.59.10</version></head>
+<Axis_Internet_Camera>
+  <auto_back_light>TRUE</auto_back_light>
+  <auto_exposure>FALSE</auto_exposure>
+  <auto_white_balance>FALSE</auto_white_balance>
+  <brightness_value>50</brightness_value>
+  <camera_type>1</camera_type>
+  <color_level_value>50</color_level_value>
+  <compression_index>5</compression_index>
+  <contrast_value>50</contrast_value>
+  <exposure_value>50</exposure_value>
+  <ip_address>10.18.15.12</ip_address>
+  <is_active>TRUE</is_active>
+  <password>FRC</password>
+  <port>80</port>
+  <resolution>3</resolution>
+  <sharpness_value>50</sharpness_value>
+  <username>FRC</username>
+</Axis_Internet_Camera>
+<RGB_Filter>
+  <channel>4</channel>
+  <hue_value>50</hue_value>
+  <hysteresis>0</hysteresis>
+  <min_value>100</min_value>
+</RGB_Filter>
+<Blob_Size>
+  <limit>1024</limit>
+  <mask>FALSE</mask>
+  <max_area>0</max_area>
+  <min_area>67</min_area>
+  <threshold>5</threshold>
+  <treat_as_color_image>FALSE</treat_as_color_image>
+</Blob_Size>
+<Canny>
+  <high_threshold>45</high_threshold>
+  <low_threshold>0</low_threshold>
+  <theta>1</theta>
+</Canny>
+<Center_of_Gravity>
+  <box_size>9</box_size>
+  <color_index>4</color_index>
+  <connect_line>FALSE</connect_line>
+  <density>-1</density>
+  <display_as_annotation>FALSE</display_as_annotation>
+  <overlay_image>Current</overlay_image>
+  <shape_index>1</shape_index>
+  <show_box>TRUE</show_box>
+  <show_cog>TRUE</show_cog>
+  <show_coord>TRUE</show_coord>
+  <size_index>5</size_index>
+  <threshold>-1</threshold>
+  <use_subpixel>FALSE</use_subpixel>
+</Center_of_Gravity>
+<NetworkTables>
+  <delay>0</delay>
+  <filter_type_index>0</filter_type_index>
+  <hostname>10.18.15.2</hostname>
+  <port>1735</port>
+  <prefix>//</prefix>
+  <variables_to_send>COG_BOUNDING_COORDINATES
+IMAGE_COUNT</variables_to_send>
+  <variable_type_index>0</variable_type_index>
+</NetworkTables>
