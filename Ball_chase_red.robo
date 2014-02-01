@@ -18,10 +18,10 @@
   <username>FRC</username>
 </Axis_Internet_Camera>
 <RGB_Filter>
-  <channel>4</channel>
-  <hue_value>90</hue_value>
+  <channel>1</channel>
+  <hue_value>150</hue_value>
   <hysteresis>0</hysteresis>
-  <min_value>15</min_value>
+  <min_value>100</min_value>
 </RGB_Filter>
 <Blob_Size>
   <limit>1</limit>
